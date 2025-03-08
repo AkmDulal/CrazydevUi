@@ -4,7 +4,7 @@ import { navItems } from '@/constants/data';
 import { useSidebar } from '@/hooks/use-sidebar';
 import { cn } from '@/lib/utils';
 import { useState } from 'react';
-import LogoImg from "@/assets/logo_icon.svg"
+import LogoImg from "../../assets/logo_icon.svg"
 import Search from "@/assets/icon_search.svg"
 import SidebarIcon from "@/assets/icon_sidebar_left.svg"
 import IconFlow from "@/assets/icon_flow.svg"

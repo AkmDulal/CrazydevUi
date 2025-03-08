@@ -3,7 +3,7 @@ import { Sheet, SheetContent } from '@/components/ui/sheet';
 import { navItems } from '@/constants/data';
 import { Dispatch, SetStateAction, useState } from 'react';
 import { X } from 'lucide-react';
-import LogoImg from "@/assets/Logo_icon.svg"
+import LogoImg from "../../assets/logo_icon.svg"
 import Search from "@/assets/icon_search.svg"
 import IconFlow from "@/assets/icon_flow.svg"
 import UserAvatar from "@/assets/user_avatar.svg"
