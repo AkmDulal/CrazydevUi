@@ -121,4 +121,7 @@
   .border {
     border-color: #242424
   }
+  button {
+    background-color: transparent !important;
+  }
 }

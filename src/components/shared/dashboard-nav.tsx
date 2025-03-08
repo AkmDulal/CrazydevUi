@@ -94,7 +94,7 @@ export default function DashboardNav({
 
                       {isMinimized ? <Icon className={`ml-2.5 size-5`} /> : ""}
                       {isMobileNav || (!isMinimized && !isMobileNav) ? (
-                        <span className="mr-2 truncate w-full rounded-full border !border-[#454545] "><PopupModal title={item.title}  renderModal={(onClose) => <AddFolderCreateForm modalClose={onClose} />} /></span>
+                        <span className="mr-2 truncate w-full rounded-full border !border-[#454545] bg-background "><PopupModal title={item.title}  renderModal={(onClose) => <AddFolderCreateForm modalClose={onClose} />} /></span>
                       ) : (
                         ''
                       )}
