@@ -3,7 +3,7 @@ import { Sheet, SheetContent } from '@/components/ui/sheet';
 import { navItems } from '@/constants/data';
 import { Dispatch, SetStateAction, useState } from 'react';
 import { X } from 'lucide-react';
-import Logo from "@/assets/Logo_icon.svg"
+import LogoImg from "@/assets/Logo_icon.svg"
 import Search from "@/assets/icon_search.svg"
 import IconFlow from "@/assets/icon_flow.svg"
 import UserAvatar from "@/assets/user_avatar.svg"
@@ -33,7 +33,7 @@ export default function MobileSidebar({
             <div className="space-y-4 px-3 py-2">
             <div className='flex w-full justify-between'>
             <div className='flex'>
-            <img src={Logo} alt="logo" />
+            <img src={LogoImg} alt="logo" />
             <h1 className="text-2xl font-bold pl-3">socrates</h1>
             </div>
             <div className='flex '>

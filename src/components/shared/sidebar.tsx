@@ -4,7 +4,7 @@ import { navItems } from '@/constants/data';
 import { useSidebar } from '@/hooks/use-sidebar';
 import { cn } from '@/lib/utils';
 import { useState } from 'react';
-import Logo from "@/assets/Logo_icon.svg"
+import LogoImg from "@/assets/logo_icon.svg"
 import Search from "@/assets/icon_search.svg"
 import SidebarIcon from "@/assets/icon_sidebar_left.svg"
 import IconFlow from "@/assets/icon_flow.svg"
@@ -45,7 +45,7 @@ export default function Sidebar({ className }: SidebarProps) {
         )}
       >
         {!isMinimized && <div className='flex'>
-          <img src={Logo} alt="logo" />
+          <img src={LogoImg} alt="logo Name" />
           <h1 className="text-2xl font-bold pl-3">socrates</h1>
           </div>}
 
